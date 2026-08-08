@@ -14,8 +14,12 @@ export function sidebar() {
                 Equipos
             </button>
 
-            <button id="btnAreas" class="btn btn-outline-light w-100">
+            <button id="btnAreas" class="btn btn-outline-light w-100 mb-2">
                 Áreas
+            </button>
+
+            <button id="btnMantenimiento" class="btn btn-outline-light w-100 mb-2">
+                Mantenimiento
             </button>
 
         </div>

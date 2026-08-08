@@ -2,6 +2,7 @@ import { loginPage } from "../pages/login.js";
 import { dashboardPage } from "../pages/dashboard.js";
 import { equiposPage } from "../pages/equipos.js";
 import { areasPage } from "../pages/areas.js";
+import { mantenimientoPage } from "../pages/mantenimiento.js";
 
 const app = document.getElementById("app");
 
@@ -19,6 +20,10 @@ export function showEquipos() {
 
 export function showAreas() {
     app.innerHTML = areasPage();
+}
+
+export function showMantenimiento() {
+    app.innerHTML = mantenimientoPage();
 }
 
 export function router() {
