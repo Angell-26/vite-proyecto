@@ -3,6 +3,8 @@ import { dashboardPage } from "../pages/dashboard.js";
 import { equiposPage } from "../pages/equipos.js";
 import { areasPage } from "../pages/areas.js";
 import { mantenimientoPage } from "../pages/mantenimiento.js";
+import { reportesPage } from "../pages/reportes.js";
+import { historialPage } from "../pages/historial.js";
 
 const app = document.getElementById("app");
 
@@ -24,6 +26,14 @@ export function showAreas() {
 
 export function showMantenimiento() {
     app.innerHTML = mantenimientoPage();
+}
+
+export function showReportes() {
+    app.innerHTML = reportesPage();
+}
+
+export function showHistorial() {
+    app.innerHTML = historialPage();
 }
 
 export function router() {

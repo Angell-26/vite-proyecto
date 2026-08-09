@@ -22,6 +22,14 @@ export function sidebar() {
                 Mantenimiento
             </button>
 
+            <button id="btnReportes" class="btn btn-outline-light w-100 mb-2">
+                Reportes
+            </button>
+
+            <button id="btnHistorial" class="btn btn-outline-light w-100 mb-2">
+                Historial
+            </button>
+
         </div>
     `;
 }
