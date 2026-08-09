@@ -1,23 +1,23 @@
-# WALF - Sistema de Gestión de Mantenimiento
-
-Sistema web para la gestión y control de equipos, áreas y mantenimientos.
+# MaintPro - Sistema de Gestión de Mantenimiento
 
 ## Descripción
 
-WALF es una aplicación web desarrollada como proyecto final de la asignatura **Programación de Aplicaciones Web I**.
+MaintPro es un sistema web de gestión de mantenimiento desarrollado como proyecto final de la asignatura **Programación de Aplicaciones Web I**.
 
-El sistema permite administrar equipos y áreas, registrar mantenimientos y consultar información mediante un dashboard, reportes e historial.
+La aplicación permite administrar equipos y áreas, registrar mantenimientos y consultar información mediante un dashboard, reportes e historial.
 
 ## Objetivo
 
-Desarrollar una aplicación web que facilite la gestión y seguimiento de los procesos de mantenimiento de una organización.
+Desarrollar una solución web que facilite la gestión, seguimiento y consulta de los procesos de mantenimiento de una organización.
 
 ## Funcionalidades
 
 ### Dashboard
 
-- Cantidad de equipos.
-- Cantidad de áreas.
+Permite visualizar indicadores generales del sistema:
+
+- Equipos registrados.
+- Áreas registradas.
 - Equipos activos e inactivos.
 - Mantenimientos registrados.
 - Mantenimientos pendientes.
@@ -27,22 +27,24 @@ Desarrollar una aplicación web que facilite la gestión y seguimiento de los pr
 - Mantenimientos correctivos.
 - Mantenimientos predictivos.
 
-### Gestión de equipos
+### Equipos
 
-- Registro de equipos.
-- Consulta de equipos.
-- Búsqueda por código, nombre o área.
-- Edición de equipos.
-- Eliminación de equipos.
-- Control del estado del equipo.
+Permite:
 
-### Gestión de áreas
+- Registrar equipos.
+- Consultar equipos.
+- Buscar equipos.
+- Editar equipos.
+- Eliminar equipos.
+- Consultar su estado.
 
-Permite administrar las áreas relacionadas con los equipos y procesos de mantenimiento.
+### Áreas
 
-### Gestión de mantenimiento
+Permite administrar las áreas relacionadas con los equipos.
 
-Permite registrar mantenimientos indicando:
+### Mantenimiento
+
+Permite registrar y consultar mantenimientos indicando:
 
 - Equipo.
 - Tipo de mantenimiento.
@@ -50,19 +52,13 @@ Permite registrar mantenimientos indicando:
 - Técnico.
 - Observaciones.
 
-Tipos de mantenimiento:
-
-- Preventivo.
-- Correctivo.
-- Predictivo.
-
 ### Reportes
 
-Permite consultar los mantenimientos mediante filtros y generar información para su análisis.
+Permite consultar información de los mantenimientos mediante filtros y generar reportes.
 
 ### Historial
 
-Permite consultar el historial de mantenimientos registrados en el sistema.
+Permite consultar el historial de mantenimientos registrados.
 
 ## Tecnologías utilizadas
 
@@ -76,7 +72,7 @@ Permite consultar el historial de mantenimientos registrados en el sistema.
 
 ## Instalación
 
-Clonar el repositorio:
-
 ```bash
 git clone https://github.com/felixaberboda-create/vite-proyecto.git
+cd vite-proyecto
+npm install
