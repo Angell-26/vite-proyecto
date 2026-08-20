@@ -1,12 +1,7 @@
 import { navbar } from "./navbar.js";
 import { sidebar } from "./sidebar.js";
 
-import {
-    showDashboard,
-    showEquipos,
-    showAreas,
-    showMantenimiento
-} from "../router/router.js";
+import { showDashboard, showEquipos, showAreas, showMantenimiento, showReportes, showHistorial } from "../router/router.js";
 
 
 export function layout(content) {
@@ -38,6 +33,18 @@ export function layout(content) {
             .getElementById("btnMantenimiento")
             ?.addEventListener("click", () => {
                 showMantenimiento();
+            });
+
+        document
+            .getElementById("btnReportes")
+            ?.addEventListener("click", () => {
+                showReportes();
+            });
+
+        document
+            .getElementById("btnHistorial")
+            ?.addEventListener("click", () => {
+                showHistorial();
             });
 
     }, 0);
